@@ -4,7 +4,10 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+#define UNUSED_PARAMETER(x) ((void)(x))
+
 static int uart_debug_printf(char c, FILE *stream) {
+  UNUSED_PARAMETER(stream);
   uart_transmit((uint8_t)c);
   return 0;
 }
