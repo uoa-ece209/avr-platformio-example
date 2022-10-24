@@ -1,0 +1,5 @@
+﻿---
+# I prefer LLVM-style code but you can make your own format: <https://zed0.co.uk/clang-format-configurator/>
+BasedOnStyle: LLVM
+
+...
