@@ -4,7 +4,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-#define UNUSED_PARAMETER(x) ((void)(x))
+#define UNUSED_PARAMETER(x) ((void)(x)) // macro to notify compiler parameter is deliberately unused
 
 static int uart_debug_printf(char c, FILE *stream) {
   UNUSED_PARAMETER(stream);
