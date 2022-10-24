@@ -1,9 +1,6 @@
 {
-    "C_Cpp.intelliSenseEngine": "Default",
-    "[cpp]": {
-        "editor.wordBasedSuggestions": false,
-        "editor.suggest.insertMode": "replace",
-        "editor.semanticHighlighting.enabled": true,
-        "editor.defaultFormatter": "xaver.clang-format"
-    }
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.formatOnSave": true
+  }
 }
